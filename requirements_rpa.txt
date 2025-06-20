@@ -1,0 +1,142 @@
+# RPA自动化测试项目依赖
+
+# Web自动化核心依赖
+selenium>=4.15.0
+webdriver-manager>=4.0.1
+
+# 数据处理
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0
+
+# 图像处理和识别
+Pillow>=10.0.0
+opencv-python>=4.8.0
+pytesseract>=0.3.10
+
+# HTTP请求
+requests>=2.31.0
+urllib3>=2.0.0
+
+# 配置文件处理
+PyYAML>=6.0
+configparser>=5.3.0
+
+# 日志和调试
+loguru>=0.7.0
+
+# 时间处理
+python-dateutil>=2.8.0
+
+# 文件操作
+pathlibplus>=0.1.0
+
+# 数据库连接（可选）
+psycopg2-binary>=2.9.0  # PostgreSQL
+PyMySQL>=1.1.0          # MySQL
+sqlite3                 # SQLite (内置)
+
+# API测试（可选）
+requests-toolbelt>=1.0.0
+jsonschema>=4.19.0
+
+# 报告生成
+allure-pytest>=2.13.0
+pytest-html>=4.0.0
+
+# 邮件发送
+smtplib                 # 内置
+email                   # 内置
+
+# 加密解密
+cryptography>=41.0.0
+
+# 环境变量管理
+python-dotenv>=1.0.0
+
+# 并发处理
+concurrent.futures      # 内置
+threading              # 内置
+multiprocessing        # 内置
+
+# 系统操作
+psutil>=5.9.0
+os                     # 内置
+sys                    # 内置
+subprocess             # 内置
+
+# 正则表达式
+re                     # 内置
+
+# JSON处理
+json                   # 内置
+
+# 随机数生成
+random                 # 内置
+
+# 数学计算
+math                   # 内置
+
+# 时间处理
+time                   # 内置
+datetime               # 内置
+
+# 文件路径处理
+pathlib                # 内置
+os.path                # 内置
+
+# 字符串处理
+string                 # 内置
+
+# 集合操作
+collections            # 内置
+
+# 迭代工具
+itertools              # 内置
+
+# 函数工具
+functools              # 内置
+
+# 类型提示
+typing                 # 内置
+
+# 警告处理
+warnings               # 内置
+
+# 异常处理
+traceback              # 内置
+
+# 复制操作
+copy                   # 内置
+
+# 序列化
+pickle                 # 内置
+
+# 压缩文件
+zipfile                # 内置
+tarfile                # 内置
+
+# 网络相关
+socket                 # 内置
+urllib                 # 内置
+
+# 线程安全
+queue                  # 内置
+
+# 单元测试
+unittest               # 内置
+
+# 模拟对象
+unittest.mock          # 内置
+
+# 临时文件
+tempfile               # 内置
+
+# 全局变量
+globals                # 内置
+
+# 本地变量
+locals                 # 内置
+
+# 内置函数
+builtins               # 内置
